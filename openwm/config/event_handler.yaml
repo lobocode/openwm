@@ -1,0 +1,11 @@
+event_handler:
+  - X.KeyPress: 'handle_keypress'
+  - X.ButtonPress: 'handle_button_press'
+  - X.MotionNotify: 'handle_motion_notify'
+  - X.ButtonRelease: 'handle_button_release'
+  - X.MapRequest: 'handle_map_request'
+  - X.ConfigureRequest: 'handle_configure_request'
+  - X.UnmapNotify: 'handle_unmap_notify'
+  - X.EnterNotify: 'handle_enter_notify'
+  - X.DestroyNotify: 'handle_destroy_notify'
+  - X.MapNotify: 'handle_map_notify'
